@@ -301,6 +301,7 @@ class Calendar extends React.Component {
     /**
      * Accessor for the event title, used to display event information. Should
      * resolve to a `renderable` value.
+     * Added in v-0.16.1
      *
      * ```js
      * string | (event: Object) => any
